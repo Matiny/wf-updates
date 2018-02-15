@@ -253,7 +253,7 @@ section {
     @include positions(95%, 50%);
   }
   p {
-    @include positions(77%, 50%);
+    @include positions(7%, 50%);
     font-size: 2vw;
   }
   figcaption {
@@ -332,6 +332,11 @@ section {
 /*Media Queries___________*/
 
 @media screen and (max-width: 760px) {
+
+  body {
+    background: url(mobile-bg.jpg)no-repeat center center fixed;
+  }
+
   main {
     .close-button{
       @include centerText(12vw);
